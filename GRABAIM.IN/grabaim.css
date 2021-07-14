@@ -9,8 +9,8 @@ body{
   background-attachment: fixed;
 }
 .mainbody{
-  width: 72%;
-  margin: auto;
+  width: 100%;
+  margin: 0;
 }
 
 .logo img{
@@ -385,6 +385,7 @@ footer{
 @media (max-height:800px){
   footer { position: static; }
 }
+@media (max-
 
 
 .footer-distributed{
@@ -537,7 +538,13 @@ footer{
 
 /* Here is the code for Responsive Footer */
 /* You can remove below code if you don't want Footer to be responsive */
+@media (min-width : 1350px){
 
+  .mainbody{
+    width: 72%;
+    margin: auto;
+  }
+}
 
 @media (max-width: 880px) {
 
