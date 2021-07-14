@@ -2,7 +2,8 @@
 
 body{
    background: white;
-  margin: 10px 10px;
+ /* width: 70%; */
+ margin: 10px 10px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -10,7 +11,7 @@ body{
 }
 .mainbody{
   width: 100%;
-  margin: 0;
+  margin: auto;
 }
 
 .logo img{
@@ -304,6 +305,10 @@ img {vertical-align: middle;}
   .slideshow-container{
     max-height: 700px;
   }
+  .mainbody{
+    width: 100%;
+    margin: 0;
+  }
 }
 
 .card1 {
@@ -385,7 +390,7 @@ footer{
 @media (max-height:800px){
   footer { position: static; }
 }
-@media (max-
+
 
 
 .footer-distributed{
